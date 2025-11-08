@@ -1,0 +1,17 @@
+{
+  "name": "ai-agents-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Simple CLI chatbot using OpenAI API",
+  "main": "src/cli-chat.js",
+  "scripts": {
+    "chat": "node src/cli-chat.js"
+  },
+  "bin": {
+    "chat": "./src/cli-chat.js"
+  },
+  "dependencies": {
+    "openai": "^4.0.0",
+    "readline-sync": "^1.4.10"
+  }
+}
