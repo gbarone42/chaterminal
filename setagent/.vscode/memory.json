@@ -1,0 +1,6 @@
+{
+  "AI Agents MCP": {
+    "node_version": ">=20",
+    "code_style": "modulare, pulito, commenti essenziali"
+  }
+}
