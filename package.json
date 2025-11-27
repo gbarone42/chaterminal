@@ -5,13 +5,15 @@
   "description": "Simple CLI chatbot using OpenAI API",
   "main": "src/cli-chat.js",
   "scripts": {
-    "chat": "node src/cli-chat.js"
+    "chat": "node src/cli-chat.js",
+    "telegram": "node src/telegram-bot.js"
   },
   "bin": {
     "chat": "./src/cli-chat.js"
   },
   "dependencies": {
     "openai": "^4.0.0",
-    "readline-sync": "^1.4.10"
+    "readline-sync": "^1.4.10",
+    "node-telegram-bot-api": "^0.63.0"
   }
 }
