@@ -66,7 +66,7 @@ npm run telegram
 
 Il bot parte in modalità polling. Scrivi al tuo bot su Telegram.
 
-### Comandi supportati
+### Comandi supportati xoxo
 
 - `/start`: avvia una nuova sessione
 - `/reset`: cancella il contesto della chat corrente
